@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div>
         <Helmet>
-          <title>Ezgi | Web Dev</title>
+          <title>Oyuna | Web Dev</title>
         </Helmet>
         <Header />
         <Main />

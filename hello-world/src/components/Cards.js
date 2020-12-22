@@ -1,10 +1,10 @@
 import React from "react"
 import "./cards.styles.scss"
 
-function Cards() {
+function Cards(Props) {
   return (
     <div className="cards">
-      <h3>Todo List</h3>
+      <h3>{Props.head}</h3>
       <div>
         <p align="left" className="badges">
           <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
@@ -28,7 +28,7 @@ function Cards() {
             />
           </a>
         </p>
-        <p>This is my first Todo List. Check it out!</p>
+        <p>Hello there</p>
         <button>
           <strong>Live</strong>
         </button>

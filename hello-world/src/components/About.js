@@ -10,11 +10,11 @@ class About extends Component {
         <div>
           <img
             className="profile"
-            src="./img/meblack&white.jpg"
+            src="./img/.jpg"
             alt="profilephoto"
           ></img>
           <div className="bio">
-            <h3 className="header3">Hello there, I'm Ezgi</h3>
+            <h3 className="header3">Hello there, I'm Oyuna</h3>
             <p className="aboutme">
               I am currently looking for my next challenge as a{" "}
               <span className="frontend">Front-End Developer</span>, having
@@ -43,9 +43,7 @@ class About extends Component {
               .
             </p>
             <p className="aboutme">
-              During my stay in Stockholm, Sweden, I got fascinated by Nordic
-              design and since then I integrate minimalist design principles in
-              many of my projects.
+             Hello
             </p>
           </div>
         </div>
